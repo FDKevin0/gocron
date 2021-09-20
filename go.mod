@@ -11,7 +11,6 @@ require (
 	github.com/go-macaron/toolbox v0.0.0-20200329073429-4401f4ce0f55
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/go-xorm/xorm v0.7.9
-	github.com/golang/protobuf v1.5.2
 	github.com/jakecoffman/cron v0.0.0-20190106200828-7e2009c226a5
 	github.com/lib/pq v1.10.3
 	github.com/ouqiang/goutil v1.3.8
@@ -36,8 +35,12 @@ require (
 	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
 	golang.org/x/text v0.3.6 // indirect
 	google.golang.org/genproto v0.0.0-20210920155426-26f343e4c215 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df // indirect
 	xorm.io/builder v0.3.9 // indirect
+)
+
+require (
+	github.com/golang/protobuf v1.5.2
+	google.golang.org/protobuf v1.27.1 // indirect
 )
