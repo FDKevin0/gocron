@@ -5,7 +5,6 @@ go 1.17
 require (
 	github.com/Tang-RoseChild/mahonia v0.0.0-20131226213531-0eef680515cc
 	github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-gomail/gomail v0.0.0-20160411212932-81ebce5c23df
 	github.com/go-macaron/binding v1.1.1
 	github.com/go-macaron/gzip v0.0.0-20200329073552-98214d7a897e
@@ -29,6 +28,7 @@ require (
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/go-macaron/inject v0.0.0-20200308113650-138e5925c53b // indirect
+	github.com/golang-jwt/jwt/v4 v4.0.0 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/unknwon/com v1.0.1 // indirect
